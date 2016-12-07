@@ -45,7 +45,7 @@ Two data attributes are used for that - `data-custom` (for regex) and `data-mess
 Example for only allowing numbers:
 ```html
 <div class="input">
-    <input type="email" name="email" id="email" data-muffin='{"required":"This input is required"}' data-muffin-custom='/^\\d+$/i' data-muffin-message="Only numbers allowed"/>
+    <input type="text" name="number" id="number" data-muffin='{"required":"This input is required"}' data-muffin-custom='/^\\d+$/i' data-muffin-message="Only numbers allowed"/>
 </div>
 ```
 __Note:__ Dont forget to have both, pattern and modifier in regex (/pattern/modifier), otherwise modifier is set to __i__ by default.
